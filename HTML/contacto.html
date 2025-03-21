@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A MirRoyo - Contacto</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body id="body">
+    <!-- Encabezado con logo y enlaces -->
+    <header class="header">
+        <a href="../HTML/index.html" class="logo">
+            <img id="imagenlogo" src="../IMG/Imagen pegada.png" alt="A MirRoyo">
+        </a>
+        <div class="linksheader">
+            <a href="../HTML/iniciarsesion.html">Iniciar Sesión</a>
+        </div>
+    </header>
+
+    <div class="cuadrado">
+        <h1><a href="index.html">A MirRoyo</a></h1>
+
+        <div id="descripcion-empresa">
+            <p>Cuentanos el problema que tienes:</p>
+        </div>
+
+        <form id="formulario-contacto">
+            <select id="categoria-consulta" required>
+                <option value="" disabled selected>Seleccione una categoría</option>
+                <option value="reservas">Consulta sobre reservas</option>
+                <option value="paquetes">Información de paquetes turísticos</option>
+                <option value="cancelaciones">Cancelaciones y reembolsos</option>
+                <option value="documentacion">Documentación de viaje</option>
+                <option value="otros">Otros asuntos</option>
+            </select>
+
+            <input type="text" id="nombre-completo" placeholder="Nombre completo" required>
+            <input type="email" id="correo-electronico" placeholder="Correo electrónico" required>
+            <input type="tel" id="telefono-contacto" placeholder="Teléfono" required>
+            <textarea id="contenido-mensaje" placeholder="Describe tu consulta" required></textarea>
+
+            <button type="submit" id="boton-enviar">Enviar</button>
+        </form>
+    </div>
+
+    <footer id="footer">
+        <div class="cuadrado-footer">
+          <div class="pie-redes-sociales">
+            <h3>Síguenos</h3>
+            <div class="iconos-sociales">
+              <a href="https://www.facebook.com/profile.php?id=61573031110114" target="_blank" rel="noopener noreferrer">
+                <img src="../IMG/descarga.png" alt="Facebook" class="icono-social">
+              </a>
+              <a href="https://x.com/EmpresaAMirroyo" target="_blank" rel="noopener noreferrer">
+                <img src="../IMG/25660.png" alt="Twitter" class="icono-social">
+              </a>
+            </div>
+          </div>
+          <div class="pie-enlaces">
+            <h3>Enlaces útiles</h3>
+            <ul>
+              <li><a href="../HTML/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+              <li><a href="../HTML/sobrenosotros.html">Sobre Nosotros</a></li>
+            </ul>
+          </div>
+          <div class="pie-contacto">
+            <h3>Contáctanos</h3>
+            <p>Email: empresaamirroyo@gmail.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+          </div>
+        </div>
+        <div class="pie-inferior">
+          <p>&copy; 2025 Empresa A Mirroyo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+    <script src="../JS/javascript.js"></script>
+
+</html>

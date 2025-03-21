@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A MirRoyo - Pago y reserva</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body id="body">
+    <!-- Encabezado con logo y enlaces -->
+    <header class="header">
+        <a href="../HTML/index.html" class="logo">
+            <img id="imagenlogo" src="../IMG/Imagen pegada.png" alt="A MirRoyo">
+        </a>
+        <div class="linksheader">
+            <a href="../HTML/contacto.html">Contacto</a>
+            <a href="../HTML/iniciarsesion.html">Iniciar Sesión</a>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <section id="reserva" class="cuadrado">
+            <h1>Reserva tu Viaje</h1>            
+            <form id="formulario-reserva">
+                <div class="campo-formulario">
+                    <label for="adultos">Número de Adultos:</label>
+                    <input type="number" id="adultos" name="adultos" class="rellenar-espacio" min="1" value="1" required>
+                </div>
+                <div class="campo-formulario">
+                    <label for="ninos">Número de Niños (menores de 14 años):</label>
+                    <input type="number" id="ninos" name="ninos" class="rellenar-espacio" min="0" value="0">
+                </div>
+                <div id="precio-total" class="campo-texto">Precio Total: 1650 pp€</div>
+                <div class="boton-enviar">
+                  <a href="../HTML/confirmacioncompra.html" id="boton-enviar">Reservar Ahora</a>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+      <div class="cuadrado-footer">
+        <div class="pie-redes-sociales">
+          <h3>Síguenos</h3>
+          <div class="iconos-sociales">
+            <a href="https://www.facebook.com/profile.php?id=61573031110114" target="_blank" rel="noopener noreferrer">
+              <img src="../IMG/descarga.png" alt="Facebook" class="icono-social">
+            </a>
+            <a href="https://x.com/EmpresaAMirroyo" target="_blank" rel="noopener noreferrer">
+              <img src="../IMG/25660.png" alt="Twitter" class="icono-social">
+            </a>
+          </div>
+        </div>
+        <div class="pie-enlaces">
+          <h3>Enlaces útiles</h3>
+          <ul>
+            <li><a href="../HTML/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="../HTML/sobrenosotros.html">Sobre Nosotros</a></li>
+            <li><a href="../HTML/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="pie-contacto">
+          <h3>Contáctanos</h3>
+          <p>Email: empresaamirroyo@gmail.com</p>
+          <p>Teléfono: +34 123 456 789</p>
+        </div>
+      </div>
+      <div class="pie-inferior">
+        <p>&copy; 2025 Empresa A Mirroyo. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="../JS/javascript.js"></script>
+</body>
+</html>
