@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A MirRoyo</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body id="body">
+
+    <header class="header">
+        <a href="../HTML/index.html" class="logo">
+            <img id="imagenlogo" src="../IMG/Imagen pegada.png" alt="A MirRoyo">
+        </a>
+        <div class="linksheader">
+            <a href="../HTML/contacto.html">Contacto</a>
+            <a href="../HTML/iniciarsesion.html">Iniciar Sesión</a>
+        </div>
+    </header>
+
+    <nav class="menudenavegacion">
+        <a href="../HTML/destinos.html">Destinos</a>
+        <a href="../HTML/packsviajes.html">Packs Viajes</a>
+        <a href="../HTML/colaboraciontrixy.html">Colaborador</a>
+    </nav>
+
+    <div class="imagenes-principales">
+        <div class="imagenespequeñas">
+            <img src="../IMG/atardecer-nugget-point-nueva-zelanda-isla-sur_53876-31638.avif">
+            <p class="nombredellugar">Cabo de Formentor, Mallorca, España</p>
+        </div>
+        <div class="imagenespequeñas">
+            <img src="../IMG/calas-acantilados-ponta-da-piedade-lugar-mas-famoso-region-algarve-portugal_137125-989.avif">
+            <p class="nombredellugar">Playa de Marinha, Algarve, Portugal</p>
+        </div>
+        <div class="imagenespequeñas">
+            <img src="../IMG/increible-foto-panoramica-ciudad-komiza-frente-al-mar-adriatico-isla-vis-croacia_181624-44231.avif">
+            <p class="nombredellugar">Santorini, Grecia</p>
+        </div>
+        <div class="imagenespequeñas">
+            <img src="../IMG/beautiful-japanese-garden.jpg" class="ajustar-imagen">
+            <p class="nombredellugar">Parque Nacional de los Lagos de Plitvice, Croacia</p>
+        </div>
+        <div class="imagenespequeñas">
+            <img src="../IMG/isla-estanque-tsaritsyno-moscu-bruma-manana-arboles-dorados-otono_248906-2220.avif">
+            <p class="nombredellugar">Lago Bled, Eslovenia</p>
+        </div>
+    </div>
+
+    <body>
+        <main>
+            <main>
+                <!-- Framework de carrusel: https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works -->
+                <div id="contenedor-carrusel">
+                    <div id="carrusel">
+                        <input type="radio" name="posicion" id="slide1" checked>
+                        <input type="radio" name="posicion" id="slide2">
+                        <input type="radio" name="posicion" id="slide3">
+                        <div id="slides">
+                            <div id="overflow">
+                                <div id="slide">
+                                    <div id="slide-contenido">
+                                        <img src="../IMG/hoteltoscana.jpg" alt="Hotel Toscana">
+                                        <div id="slide-texto">
+                                            <h2>HOTEL TOSCANA</h2>
+                                            <p>Descubre los mejores paisajes de Italia</p>
+                                            <a href="../HTML/destino1.html" id="boton-enviar">Reserva YA</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="slide">
+                                    <div id="slide-contenido">
+                                        <img src="../IMG/331589752.jpg" alt="Slide 2">
+                                        <div id="slide-texto">
+                                            <h2>Hotel Playa Costa Brava</h2>
+                                            <p>Un lugar especial en provincia de Girona</p>
+                                            <a href="../HTML/destino2.html" id="boton-enviar">Reserva YA</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="slide">
+                                    <div id="slide-contenido">
+                                        <img src="../IMG/../IMG/alpesaustriacos.png" alt="Slide 3">
+                                        <div id="slide-texto">
+                                            <h2>Alpes Austriacos</h2>
+                                            <p>Disfruta de la nieve en Austria</p>
+                                            <a id="boton-enviar">PROXIMAMENTE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="controles">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    
+    
+        <section class="por-que-elegirnos">
+            <h2>¿Por qué viajar con A MirRoyo?</h2>
+            <div class="razones">
+                <div class="razon">
+                    <img src="../IMG/experienciaunica.png" alt="Experiencia">
+                    <h3>Experiencia Única</h3>
+                    <p>Viajes diseñados anualmente para crear recuerdos inolvidables</p>
+                </div>
+                <div class="razon">
+                    <img src="../IMG/sostenibilidad.jpg" alt="Guías Expertos">
+                    <h3>Transporte Sostenible</h3>
+                    <p>Gracias a nuestro colaborador podemos realizar un transporte mejor medioambientalmente</p>
+                </div>
+                <div class="razon">
+                    <img src="../IMG/dinero.png" alt="Mejor Precio">
+                    <h3>Mejor Precio</h3>
+                    <p>Garantizamos la mejor relación calidad-precio</p>
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+    <footer id="footer">
+      <div class="cuadrado-footer">
+        <div class="pie-redes-sociales">
+          <h3>Síguenos</h3>
+          <div class="iconos-sociales">
+            <a href="https://www.facebook.com/profile.php?id=61573031110114" target="_blank" rel="noopener noreferrer">
+              <img src="../IMG/descarga.png" alt="Facebook" class="icono-social">
+            </a>
+            <a href="https://x.com/EmpresaAMirroyo" target="_blank" rel="noopener noreferrer">
+              <img src="../IMG/25660.png" alt="Twitter" class="icono-social">
+            </a>
+          </div>
+        </div>
+        <div class="pie-enlaces">
+          <h3>Enlaces útiles</h3>
+          <ul>
+            <li><a href="../HTML/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="../HTML/sobrenosotros.html">Sobre Nosotros</a></li>
+            <li><a href="../HTML/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="pie-contacto">
+          <h3>Contáctanos</h3>
+          <p>Email: empresaamirroyo@gmail.com</p>
+          <p>Teléfono: +34 123 456 789</p>
+        </div>
+      </div>
+      <div class="pie-inferior">
+        <p>&copy; 2025 Empresa A Mirroyo. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+    
+</body>
+</html>
